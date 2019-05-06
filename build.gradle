@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id "io.qameta.allure" version '2.7.0'
+}
+
+
+group 'com.workshop'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.codeborne', name: 'selenide', version: '5.2.2'
+    compile group: 'io.qameta.allure', name: 'allure-selenide', version: '2.7.0'
+}
+
+allure {
+    autoconfigure = true
+    version = '2.7.0'  // Latest Allure Version
+    configuration = 'implementation' //to be seen @Step on allure
+
+    useJUnit4 {
+        version = '2.7.0'
+    }
+}
+
+
+test {
+    useJUnit() {
+       // include '**my.package.name/*'
+        // exclude '**/LegacyTest.class'
+    }
+}
+
+tasks.withType(Test) {
+    testLogging {
+        events 'PASSED', 'SKIPPED', 'FAILED'
+    }
+}
+
+task atomic (type: Test, dependsOn: testClasses) {
+    include '**/*ProductTests*'
+}
+
+
+task integration (type: Test, dependsOn: testClasses) {
+    include '**/*GribleUsageTest*'
+}
