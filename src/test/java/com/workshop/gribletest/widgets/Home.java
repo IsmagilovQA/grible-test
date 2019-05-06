@@ -7,7 +7,7 @@ import com.codeborne.selenide.ex.ElementNotFound;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
 
 public class Home {
 
@@ -26,6 +26,7 @@ public class Home {
                 .submit();
         new ConfirmationDialog().confirm();
     }
+
 
     @Step
     public void addProduct(String name) {
@@ -61,15 +62,18 @@ public class Home {
         getProductElement(productName).shouldBe(visible);
     }
 
+
     @Step
     public void shouldNotHaveProduct(String productName) {
         getProductElement(productName).shouldNotBe(visible);
     }
 
+
     @Step
     private SelenideElement getProductElement(String productName) {
         return new Section(productName).element().find(".product-item");
     }
+
 
     @Step
     public void deleteProduct(String productName) {
@@ -79,6 +83,7 @@ public class Home {
         new ConfirmationDialog()
                 .confirm();
     }
+
 
     // method helper
     private static boolean satisfied(SelenideElement element, Condition condition) {

@@ -51,3 +51,5 @@ task atomic (type: Test, dependsOn: testClasses) {
 task integration (type: Test, dependsOn: testClasses) {
     include '**/*GribleUsageTest*'
 }
+
+// https://tasjdemo.educist.com/ru

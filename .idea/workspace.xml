@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a815d6a8-5e50-4967-bb70-947a2a3ba367" name="Default Changelist" comment="" />
+    <list default="true" id="a815d6a8-5e50-4967-bb70-947a2a3ba367" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -79,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ConfirmationDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,6 +140,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -151,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Cell.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ColumnHeader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ConfirmationDialog.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Products.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Row.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Section.java" />
@@ -162,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/DataStorages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Categories.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Table.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/ProductTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/testconfigs/BaseTest.java" />
@@ -170,6 +175,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Category.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ContextMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Dialog.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ConfirmationDialog.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -179,6 +193,7 @@
     <option name="width" value="1281" />
     <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -241,6 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
@@ -723,20 +739,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/MenuInput.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/DialogInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/DialogInput.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ConfirmationDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/MenuInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -755,18 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/workshop/gribletest/widgets/ConfirmationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="450">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
