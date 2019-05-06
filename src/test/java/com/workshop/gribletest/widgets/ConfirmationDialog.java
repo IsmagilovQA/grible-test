@@ -13,7 +13,6 @@ public class ConfirmationDialog {
     @Step
     public void confirm() {
         this.container.find(".btn-primary").click();
-
     }
 
     @Step
